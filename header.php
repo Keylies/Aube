@@ -8,9 +8,8 @@
  *
  * @package Aube
  */
-
-include_once 'inc/walkers/class-site-menu-walker.php';
 ?>
+
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -45,6 +44,8 @@ include_once 'inc/walkers/class-site-menu-walker.php';
 				<button class="site__toggle"><?php esc_html_e( 'Menu', 'aube' ); ?></button>
 				<?php
 				if ( has_nav_menu( 'site-header' ) ) {
+					include_once 'inc/walkers/class-site-menu-walker.php';
+
 					wp_nav_menu( array( 
 						'theme_location'  => 'site-header',
 						'menu_id'         => 'site-menu',

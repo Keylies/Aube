@@ -8,8 +8,6 @@
  *
  * @package Aube
  */
-
-include_once 'inc/walkers/class-site-footer-menu-walker.php';
 ?>
 
 	</main><!-- .site__content -->
@@ -17,6 +15,8 @@ include_once 'inc/walkers/class-site-footer-menu-walker.php';
 	<footer class="site__footer" role="contentinfo">
 		<?php
 		if ( has_nav_menu( 'site-footer' ) ) {
+			include_once 'inc/walkers/class-site-footer-menu-walker.php';
+
 			wp_nav_menu( array( 
 				'theme_location'  => 'site-footer',
 				'menu_id'         => 'site-footer-menu',
