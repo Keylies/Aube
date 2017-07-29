@@ -1,0 +1,24 @@
+@import '../init/_normalize';
+
+@import '../utils';
+@import '../variables';
+@import '../_fonts';
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after { 
+	box-sizing: inherit; 
+}
+
+body {
+	font-family: Roboto;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}

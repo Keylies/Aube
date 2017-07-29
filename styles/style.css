@@ -1,3 +1,4 @@
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -402,8 +403,6 @@ template {
 [hidden] {
   display: none; }
 
-/* GLOBAL
-========================================================================== */
 html {
   box-sizing: border-box; }
 
@@ -419,9 +418,7 @@ ul {
   margin: 0;
   padding: 0; }
 
-/* SITE HEADER
-========================================================================== */
-/* == MENU == */
+
 .site__toggle {
   display: none; }
 
